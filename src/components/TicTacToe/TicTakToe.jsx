@@ -5,7 +5,6 @@ import TicTacToeBoard from '../TicTacToeBoard/TicTacToeBoard';
 import { useGameContext } from '../../context/Context';
 import usePersistedState from '../../customHook/usePersistedState';
 
-
 function TicTakToe() {
   const {won,setWon,setData,setCount,setLock}=useGameContext();
   const initialValue={
