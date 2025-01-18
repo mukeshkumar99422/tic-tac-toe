@@ -28,7 +28,7 @@ function TicTakToe() {
     <div className="container">
         {won==0?
         <h1 className='heading'>Tic Tak Toe Game using<span>React</span></h1>:
-        <h1 className='heading wonHeading'><span>{won==1?"<Player 1>":"<Player 2>"}</span>won the game</h1>}
+        <h1 className='heading wonHeading'><span>{won==1?"<Player-1>":"<Player-2>"}</span>won the game</h1>}
         <div className="ticTacToeBoard">
             <TicTacToeBoard/>
         </div>
