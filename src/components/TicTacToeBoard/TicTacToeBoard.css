@@ -1,0 +1,28 @@
+.board{
+    width: 315px;
+    height: 315px;
+}
+.board .row{
+    height: 105px;
+    width: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    /* outline: none; */
+    user-select: none;
+    height: 100px;
+    width: 100px;
+    background-color: #1f3540;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,49 @@
+.container{
+    text-align: center;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color: white;
+    font-size: 50px;
+    user-select: none;
+}
+.heading span{
+    color: #26ffcb;
+    padding-left: 15px;
+}
+.reset{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color:#1f3540;
+    font-size: 30px;
+    color: #26ffcb;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+
+    user-select: none;
+
+}
+.reset:hover{
+    background-color: #153b4e;
+}
+.reset:active{
+    scale: 0.9;
+}
+.ticTacToeBoard{
+    display: flex;
+    justify-content: center;
+}
+.wonHeading{
+    color: #26ffcb;
+}
+.wonHeading span{
+    color: green;
+    margin-right: 10px;
+}
